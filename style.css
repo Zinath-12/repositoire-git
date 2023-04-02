@@ -143,3 +143,18 @@
     gap: 8px;
     padding-top: 16px;
   }
+
+  .post-body {
+    flex: 1;
+  }
+
+  .text-date {
+    margin-right: 16px;
+  }
+
+  .paragraphe {
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    
+  } 
