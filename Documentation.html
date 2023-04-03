@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="banner-social">
+
+        <button class="btn-signal">
+            <a href="#">Signaler un produit de sante</a>
+        </button>
+        <form style="background-color: #E50046; color: #FFFFFF; padding: 20px; display: none;">
+            <h2 style="color: #0A1E4A;">Information du produit</h2>
+            <div class="form-input d-flex" style="flex-direction: column;">
+                <label for="nom">Nom du produit</label>
+                <input type="text" id="nom" name="nom"
+                    style="background-color: #FFFFFF; color: #161616; padding: 5px; border: none; margin: 10px 0;outline: none;">
+
+            </div>
+            <div class="form-input d-flex" style="flex-direction: column;">
+                <label for="date">Date d'expiration du produit</label>
+                <input type="text" id="date" name="date"
+                    style="background-color: #FFFFFF;color: #161616; padding: 5px; border: none; margin: 10px 0; outline: none;">
+            </div>
+
+            <input type="submit" value="Envoyer"
+                style="background-color: #0A1E4A; color: #fff; border: none; padding: 10px 20px; cursor: pointer;">
+        </form>
+
+        <script>
+            const bouton = document.querySelector(".btn-signal");
+            const formulaire = document.querySelector("form");
+
+            bouton.addEventListener("click", function (event) {
+                event.preventDefault();
+                formulaire.style.display = "block";
+            });
+
+
+        </script>
+
+
+        <div class="banner-social-links">
+            <a class="banner-social-link text-dark" href="#"><img src="./image/search.png" alt="" width="20px"></a>
+            <a class="banner-social-link text-dark" href="#"><img src="./image/twitter.png" alt="" width="20px"></a>
+            <a class="banner-social-link text-dark" href="#"><img src="./image/mail.png" alt="" width="20px"></a>
+        </div>
+        <div class="banner-social-dropdown">
+
+
+            <button class="btn  dropdown-toggle border-bottom" type="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+
+                <a class="banner-social-link text-dark" href="#"><img src="./image/asset 0 (1).png" alt=""
+                        width="20px"></a>
+                <select name="langue" id="" class="color">
+                    <option value="Anglais">Anglais</option>
+                    <option value="Francais">Francais</option>
+                </select>
+            </button>
+
+        </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-item navbar-expand-lg ">
+        <div class="container">
+
+            <a class="navbar-brand-logo" href="#">
+                <img src="./image/logo-3.png" width="100" height="100" class="d-inline-block align-top" alt="logo">
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark " href="Etablissement.html">Etablissement</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="Homologation.html">Homologations</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="Gouvernance.html">Gouvernance</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="Inspection.html">Inspection</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="Vigilance.html">Vigilance et essai clinique</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="Documentation.html">Documentation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="rectangle">
+        <div class=" rectangle-196">
+            <img src="" alt="">
+            <div class="container">
+                <h1>DOCUMENTS <br> ET TEXTES</h1>
+                <button> Contactez-nous</button>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="second-block" style="padding-top: 80px;">
+        <div class="container">
+            <div class="d-flex">
+                <div class="col-md-4 doc">
+                    <h4 style="font-size: 16px; line-height: 14px;">Type de documents</h4>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Lois</a>
+                        </label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Decrets</a>
+                        </label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Arretes</a>
+                        </label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Note de services</a>
+                        </label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Circulaire</a>
+                        </label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Recceuil de texte</a>
+                        </label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            <a href="" class="check-link">Documents</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="row" style="display: flex; flex-direction: column;">
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title"  style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-tile"   style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-tile"   style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-tile"   style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-tile"   style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-tile"   style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-tile"   style="color: #0D6E77; font-size: 16px;">Decrets n^2004-056 du 12
+                                    mars 2004 portant modalites d'enregistrements des <br> reactifs d'analyses
+                                    bio-medicales en Republique du Benin </h5>
+                          <p class="card-text" style="color: #161616; font-weight: bold;">Some quick example to
+                                    build on the card-title and make up the bulks of the card content.Some quick example
+                                    to build on the card-title and make up the bulks of the card content.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+          
+                
+              
+            </div> 
+        </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="form" style="background-color: #FFFFFF; padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+            <div class="newsletter col d-flex justify-content-between" style="gap: 16px;">
+                <div class="form-cadre col-6 bg-white" style="padding: 24px 12px;">
+                    <h2>Abonnez vous a notre Newsletter</h2>
+                    <p>Soyez les premiers a etre informes de nos dernieres actualites</p>
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" placeholder="Abonnez-Vous" aria-label="Abonnez-Vous"
+                            aria-describedby="basic-addon2" style="border-bottom: 1px solid #2358A6;">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary" type="button"
+                                style="background-color: #2358A6; color: #FFFFFF;">S'abonnez</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-cadre col-6 bg-white" style="padding: 24px 12px;">
+                    <h2>Une suggestion ou une reclamation?</h2>
+                    <p>Merci de nous aider a mieux vous servir</p>
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" placeholder="Abonnez-Vous" aria-label="Abonnez-Vous"
+                            aria-describedby="basic-addon2" style="border-bottom: 1px solid #008558;">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary" type="button"
+                                style="background-color: #008558; color: #FFFFFF;">S'abonnez</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <div style="width: 100%; height: 20px; display: flex; flex-direction: row;">
+        <div style="width: 33.3333%; background-color: green; height: 100%;"></div>
+        <div style="width: 33.3333%; background-color: yellow; height: 100%;"></div>
+        <div style="width: 33.3333%; background-color: red; height: 100%;"></div>
+    </div>
+    <footer style="background-color: #0A1E4A;">
+
+        <div class="d-flex align-items-center justify-content-center" style="padding-top: 100px;padding-bottom: 80px; ">
+            <img src="./image/logo-3.png" alt="" width="150px" height="150px">
+        </div>
+        <div class="hight-footer mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto " style="color: #FFFFFF;">
+                        <div class="d-flex align-middle justify-content-between"
+                            style="border-bottom: 1px solid #B3B2B2;">
+                            <div class="col-lg-2 col-md-6 footer-item">
+
+                                <h4>A propos de L'ABPR</h4>
+                                <p class="mt-3"><a href="">Mot du directeur</a></p>
+                                <p class="mt-3"><a href="">Attribution</a> </p>
+                                <p class="mt-3"><a href="">Description des comissions et commites</a></p>
+                            </div>
+                            <div class="col-lg-2 col-md-6 footer-item">
+                                <h4>Homologations</h4>
+                                <p class="mt-3"><a href="">Modalite <br> d'Homologations</a></p>
+                                <p class="mt-3"><a href="">Liste des produits de <br> sante homologues</a></p>
+                            </div>
+                            <div class="col-lg-2 col-md-6 footer-item">
+                                <h4>Inspection</h4>
+                                <p class="mt-3"><a href="">Activités <br> d’inspection</a></p>
+                                <p class="mt-3"><a href="">Demandez une <br>inspection</a></p>
+                            </div>
+                            <div class="col-lg-2 col-md-6 footer-item">
+                                <h4>Vigilance et essai</h4>
+                                <p class="mt-3"><a href="">Déclarer un effet <br> indésirable</a></p>
+                                <p class="mt-3"><a href="">Alerte</a></p>
+                                <p class="mt-3"><a href="">LNME</a></p>
+                                <p class="mt-3"><a href="">Essaie clinique</a></p>
+                            </div>
+                            <div class="col-lg-2 col-md-6 footer-item">
+                                <h4>Documentation</h4>
+                                <p class="mt-3"><a href="">Lois</a></p>
+                                <p class="mt-3"><a href="">Decrets</a></p>
+                                <p class="mt-3"><a href="">Arretes</a></p>
+                                <p class="mt-3"><a href="">Note de Service</a></p>
+                                <p class="mt-3"><a href="">Circulaire</a></p>
+                                <p class="mt-3"><a href="">Receuil de texte</a></p>
+                                <p class="mt-3"><a href="">Document</a></p>
+                            </div>
+
+                        </div>
+                        <div class=" d-md-flex py-4" style="padding-top: 40px;">
+                            <div class="me-md-auto text-center text-md-start">
+                                <div class="copyright" style="color: #FFFFFF;">
+                                    C 022
+                                    <strong><span>ABPR</span></strong>
+                                </div>
+                            </div>
+
+                            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                                <a href="" class="facebook">
+                                    <img src="./image/logo-fb.avif" alt="" width="32px" height="32px"
+                                        style="border-radius: 100%;">
+                                </a>
+                                <a href="" class="twitter">
+                                    <img src="./image/logo-twitter.avif" alt="" width="32px" height="32px"
+                                        style="border-radius: 100%;">
+                                </a>
+                                <a href="" class="insta">
+                                    <img src="./image/logo-insta.avif" alt="" width="32px" height="32px"
+                                        style="border-radius: 100%;">
+                                </a>
+                                <a href="" class="likdin">
+                                    <img src="./image/logo-likdin.avif" alt="" width="32px" height="32px"
+                                        style="border-radius: 100%;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
